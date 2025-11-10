@@ -1,0 +1,39 @@
+description: Ultralytics YOLO12 model trained on /content/Skripsi-2/data.yaml
+author: Ultralytics
+date: '2025-10-16T09:51:16.216037'
+version: 8.3.214
+license: AGPL-3.0 License (https://ultralytics.com/license)
+docs: https://docs.ultralytics.com
+stride: 32
+task: detect
+batch: 1
+imgsz:
+- 640
+- 640
+names:
+  0: Baterai
+  1: Bohlam Lampu
+  2: Botol Hand Sanitizer
+  3: Botol Plastik
+  4: Kaleng Cairan Anti Nyamuk
+  5: Kaleng Minuman
+  6: Kantong Plastik
+  7: Kardus
+  8: Kertas
+  9: Kulit Bawang
+  10: Kulit Jeruk
+  11: Kulit Kuaci
+  12: Kulit Pisang
+  13: Kulit Telur
+  14: Nasi Sisa
+  15: Styrofoam
+  16: Tisu
+  17: Tulang Ayam
+  18: Tulang Ikan
+  19: Wadah Plastik
+args:
+  batch: 1
+  half: false
+  int8: false
+  nms: false
+channels: 3
